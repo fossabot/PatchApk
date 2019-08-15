@@ -1,0 +1,32 @@
+#!/bin/bash
+
+echo "Installing PatchApk v1.0"
+echo "This Will Install The Following Tools"
+echo "Ubuntu, ApkTool, Signapk And Java"
+echo "Script Made By ng1nX4O4"
+echo
+sleep 3
+echo
+echo "Installing Required Packagess"
+pkg up -y &> /dev/null ;
+apt install figlet pv ncurses-utils binutils coreutils wget git termux-api openssl-tool aapt proot -y ;
+echo
+echo "Installing Ubuntu"
+bash $HOME/PatchApk/.install/ubuntu.sh &> /dev/null ;
+echo
+echo "Installing Java, Apktool And Signapk"
+bash $HOME/PatchApk/.install/java.sh &> /dev/null ;
+echo
+echo "Patching System For Use"
+bash $HOME/PatchApk/.install/patch.sh &> /dev/null ;
+echo
+echo "Installation Completed"
+cd ~/PatchApk
+mkdir decompiler
+mkdir recompiler
+mkdir final
+mkdir payload
+mkdir signed
+mkdir unsigned
+mkdir zipalign
+mkdir script
