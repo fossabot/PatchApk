@@ -8,7 +8,7 @@ Version 2.1
  git clone http://github.com/ng1nX4O4/PatchApk
  cd PatchApk
  bash setup
-
+```
 
 
 #### Note
