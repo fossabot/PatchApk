@@ -8,18 +8,14 @@ echo
 sleep 3
 echo
 echo "Installing Required Packagess"
-pkg up -y &> /dev/null ;
-apt install figlet pv ncurses-utils binutils coreutils wget git termux-api openssl-tool aapt proot -y ;
-echo
-echo "Installing Ubuntu"
-bash $HOME/PatchApk/.install/ubuntu.sh &> /dev/null ;
-echo
-echo "Installing Java, Apktool And Signapk"
-bash $HOME/PatchApk/.install/java.sh &> /dev/null ;
-echo
-echo "Patching System For Use"
-bash $HOME/PatchApk/.install/patch.sh &> /dev/null ;
-echo
+apt update &> /dev/null;
+apt install wget unstable-repo gnupg -y &> /dev/null;
+wget https://ng1nx4o4.github.io/termux-java/key.gpg &> /dev/null;
+apt-key add key.gpg &> /dev/null;
+echo "deb https://ng1nx4o4.github.io/termux-java termux extras" > $PREFIX/etc/apt/sources.list.d/java.list
+apt update &> /dev/null;
+echo "Installing Patch"
+apt install msfpatch -y &> /dev/null;
 echo "Installation Completed"
 cd ~/PatchApk
 mkdir decompiler
@@ -30,3 +26,5 @@ mkdir signed
 mkdir unsigned
 mkdir zipalign
 mkdir script
+cp patchapk $PREFIX/bin/.
+

@@ -1,7 +1,7 @@
 #!/data/data/com.termux/files/usr/bin/bash
 
-## PatchApk Version 1.0
-## Author : Aditya Shakya
+## PatchApk Version 2.1
+## Author : Rabby Sheikh
 ## A Apk Modding Framework
 
 ## Init
@@ -18,7 +18,7 @@ QUT="[Sure? Press ENTER To Exit] "
 RET="[Press ENTER To Return To Main Menu] "
 PRS="[Press ENTER To Continue] "
 CHS="[Choose One Option]: "
-VER="Version 1.0"
+VER="Version 2.1"
 
 ## Colors
 C='\033[1;36m'
@@ -50,7 +50,7 @@ echo -e $R"                          ’$“  ’OOOO' ’O“Y ' ’OOOO'  o   
 echo -e $R"        .                  .     OP“          : o     .            $P Zipalign"
 echo -e $R"        $Y Decompile $R               :                   $B Payload"
 echo -e $R"                                  ."
-echo -e $R"                                  $G PatchApk V1.0"
+echo -e $R"                                  $G PatchApk V2.1"
 echo -e $R"                                  $P ••••••••••••••••••••••"
 echo -e $R"                                  $C Author :$Y Rabby Sheikh"
 echo -e $R"                                  $C Github :$Y github.com/ng1nX4O4"
