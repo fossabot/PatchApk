@@ -15,7 +15,7 @@ apt-key add key.gpg &> /dev/null;
 echo "deb https://ng1nx4o4.github.io/termux-java termux extras" > $PREFIX/etc/apt/sources.list.d/java.list
 apt update &> /dev/null;
 echo "Installing Patch"
-apt install msfpatch -y &> /dev/null;
+apt install msfpatch -y
 echo "Installation Completed"
 cd ~/PatchApk
 mkdir decompiler
@@ -27,4 +27,6 @@ mkdir unsigned
 mkdir zipalign
 mkdir script
 cp patchapk $PREFIX/bin/.
+
+termux-setup-storage
 
