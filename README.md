@@ -1,10 +1,14 @@
 # PatchApk
 An Apk Modding Framework For Termux
+Version 2.1
+
 
 #### Installation
- 1. `git clone http://github.com/ng1nX4O4/PatchApk`
- 2. `cd PatchApk`
- 3. `bash setup`
+ ```git clone http://github.com/ng1nX4O4/PatchApk
+ cd PatchApk
+ bash setup```
+
+ 
 
 #### Note
  If You Face Any Error Just Let Me Know
