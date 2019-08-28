@@ -4,11 +4,12 @@ Version 2.1
 
 
 #### Installation
- ```git clone http://github.com/ng1nX4O4/PatchApk
+ ```
+ git clone http://github.com/ng1nX4O4/PatchApk
  cd PatchApk
- bash setup```
+ bash setup
 
- 
+
 
 #### Note
  If You Face Any Error Just Let Me Know
