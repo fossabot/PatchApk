@@ -17,7 +17,9 @@ apt update &> /dev/null;
 echo "Installing Patch"
 rm -rf $PREFIX/ja*
 apt install java-fs -y
-apt install signapk apktool -y
+apt install default-jre -y
+apt install signapk -y
+apt install apktool -y
 apt install msfpatch -y
 echo "Installation Completed"
 cd ~/PatchApk
