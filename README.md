@@ -1,4 +1,6 @@
 # PatchApk
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fng1nX4O4%2FPatchApk.svg?type=shield)](https://app.fossa.io/projects/git%2Bgithub.com%2Fng1nX4O4%2FPatchApk?ref=badge_shield)
+
 An Apk Modding Framework For Termux
 Version 2.1
 
@@ -35,3 +37,7 @@ Version 2.1
  If You Face Any Error Just Let Me Know
  Facebook: http://www.facebook.com/ng1nX4O4
 
+
+
+## License
+[![FOSSA Status](https://app.fossa.io/api/projects/git%2Bgithub.com%2Fng1nX4O4%2FPatchApk.svg?type=large)](https://app.fossa.io/projects/git%2Bgithub.com%2Fng1nX4O4%2FPatchApk?ref=badge_large)
